@@ -33,7 +33,7 @@
 
 <main>
   <h1>Gradium — User Guide</h1>
-  <p class="sub">Last updated: 26 September 2026 · for app version 0.29.0</p>
+  <p class="sub">Last updated: 26 September 2026 · for app version 0.31.7</p>
 
   <p>Gradium keeps your semesters, marks, GPA, deadlines, timetable and the university regulations in one place. It works offline and syncs to your account, so nothing is lost when you change phones.</p>
 
@@ -50,6 +50,7 @@
       <li><a href="#deadlines">Deadlines and reminders</a></li>
       <li><a href="#rules">Repeats, brackets, W / I / P</a></li>
       <li><a href="#schedule">Timetable and date sheet</a></li>
+      <li><a href="#names">When a course is called something else</a></li>
       <li><a href="#sync">Syncing and a second phone</a></li>
       <li><a href="#wrong">"My GPA looks wrong"</a></li>
       <li><a href="#help">Getting help</a></li>
@@ -79,6 +80,7 @@
     <h2>3. Your current semester</h2>
     <p>You may have <strong>one Current semester</strong> at a time. Add your courses to it with the right credit hours; the section field is only for matching your timetable.</p>
     <p>When the term ends, use <strong>End Semester</strong>. It turns your calculated grades into official ones, so they count in the CGPA — the app blocks it until every course has a grade. <strong>Reopen as Current</strong> does the reverse: grades are cleared and the marks boxes come back, so use it only if you ended the semester too early.</p>
+    <p><strong>Type the course name and code exactly as your portal or transcript writes them.</strong> That is how the app recognises a repeat of an earlier attempt, matches your class timetable and date sheet, and finds the course in the roadmap. A course you name your own way still works, but it will not line up with any of those.</p>
     <div class="tip"><strong>Mistake people make:</strong> leaving last term as Current. Until you end it, its courses stay predictions and the CGPA does not move.</div>
   </section>
 
@@ -129,6 +131,19 @@
     <p>They are matched to your courses by name and section, so a course name that differs from the published one may not match. If a class of yours is missing, check the course name and section first, then tell me.</p>
   </section>
 
+  <section id="names">
+    <h2>8a. When a course is called something else</h2>
+    <p>The university renames courses and changes course codes from time to time, and the roadmap, the transcript and the offering list are not always updated together. Gradium matches courses by name, so two spellings of the same course look like two different courses to it.</p>
+    <p><strong>A real example.</strong> A transcript listed <em>Software Engineering-I</em>. The roadmap for the same degree calls it <em>Software Engineering</em>. When the student added <em>Software Requirement Engineering</em>, the app warned "Prerequisite not passed: Software Engineering" — although they had passed it. Same course, two names.</p>
+    <p>What to do:</p>
+    <ul>
+      <li><strong>Ignore that warning</strong> when you know you passed the course. Nothing is blocked: prerequisite notes are warnings, never a wall.</li>
+      <li><strong>Use your portal's spelling</strong> when you add courses, so your own semesters at least agree with each other and repeats link up.</li>
+      <li><strong>Tell me</strong> if a name mismatch keeps bothering you — the roadmap is published centrally, so I can add the other spelling for everyone without a new app file.</li>
+    </ul>
+    <p>This is not the app guessing wrong about your results: your marks, GPA and CGPA are unaffected by a name mismatch. It only affects prerequisite warnings, roadmap ticks and timetable matching.</p>
+  </section>
+
   <section id="sync">
     <h2>9. Syncing and a second phone</h2>
     <p>Everything is saved on the phone first, so the app works with no internet. When you are online it syncs to your account, and the sync badge on the dashboard shows Synced, Syncing or Offline.</p>
@@ -149,6 +164,7 @@
       <li><strong>Is a repeat linked?</strong> Without the link, both attempts count.</li>
       <li><strong>Are the marks entered as marks, not percentages?</strong> 8 out of 10, not 80 out of 10.</li>
       <li><strong>Blank items are assumed full marks</strong>, so an untouched course always looks like an A.</li>
+      <li><strong>A prerequisite warning is not a GPA problem</strong> — see <a href="#names">"When a course is called something else"</a>.</li>
     </ol>
     <p>If none of those explains it, send me a screenshot of the course and of the semester — that is usually enough to see it.</p>
   </section>
