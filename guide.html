@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gradium — User Guide</title>
+<style>
+  :root { color-scheme: light dark; --bg:#f8fafc; --fg:#0f172a; --muted:#475569; --line:#e2e8f0; --accent:#2563eb; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0f172a; --fg:#e2e8f0; --muted:#94a3b8; --line:#1e293b; --accent:#60a5fa; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 16px 72px; }
+  h1 { font-size: 1.9rem; margin: 0 0 4px; letter-spacing:-0.02em; }
+  h2 { font-size: 1.15rem; margin: 34px 0 8px; }
+  p, li { color: var(--fg); }
+  .sub { color: var(--muted); font-size: .9rem; margin: 0 0 28px; }
+  ul { padding-left: 20px; }
+  li { margin: 6px 0; }
+  a { color: var(--accent); }
+  footer { margin-top: 44px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: .85rem; }
+</style>
+<style>
+  h3 { font-size: 1rem; margin: 20px 0 6px; }
+  .toc { background: color-mix(in srgb, var(--accent) 8%, transparent); border:1px solid var(--line); border-radius:12px; padding:14px 18px; }
+  .toc ol { margin:6px 0 0; padding-left:20px; }
+  .tip { border-left:3px solid var(--accent); padding:2px 0 2px 14px; margin:14px 0; color:var(--muted); }
+  .tip strong { color: var(--fg); }
+  code { background: color-mix(in srgb, var(--fg) 8%, transparent); padding:1px 5px; border-radius:5px; font-size:.9em; }
+  section { scroll-margin-top: 20px; }
+</style>
+</head>
+<body>
+
+<main>
+  <h1>Gradium — User Guide</h1>
+  <p class="sub">Last updated: 26 September 2026 · for app version 0.29.0</p>
+
+  <p>Gradium keeps your semesters, marks, GPA, deadlines, timetable and the university regulations in one place. It works offline and syncs to your account, so nothing is lost when you change phones.</p>
+
+  <p>Most "the app is showing me the wrong GPA" messages turn out to be something entered differently than the student expected. Each part below ends with the mistake people actually make. If you are in a hurry, read <a href="#wrong">"My GPA looks wrong"</a> first.</p>
+
+  <div class="toc">
+    <strong>On this page</strong>
+    <ol>
+      <li><a href="#account">Set up your account</a></li>
+      <li><a href="#past">Put in your past results</a></li>
+      <li><a href="#current">Your current semester</a></li>
+      <li><a href="#marks">Marks and the breakdown</a></li>
+      <li><a href="#numbers">What the numbers mean</a></li>
+      <li><a href="#deadlines">Deadlines and reminders</a></li>
+      <li><a href="#rules">Repeats, brackets, W / I / P</a></li>
+      <li><a href="#schedule">Timetable and date sheet</a></li>
+      <li><a href="#sync">Syncing and a second phone</a></li>
+      <li><a href="#wrong">"My GPA looks wrong"</a></li>
+      <li><a href="#help">Getting help</a></li>
+    </ol>
+  </div>
+
+  <section id="account">
+    <h2>1. Set up your account</h2>
+    <p>Sign up with your email address and a password of at least 8 characters with a letter and a number. A 6-digit code is emailed to prove the address is real; it expires in 10 minutes, and "Resend code" appears after a minute. From then on you sign in with your email and password only — no code, no waiting.</p>
+    <p>Then you fill in your name, your program and your <strong>registration number</strong>. The app asks you to confirm the registration number because <strong>it cannot be changed afterwards</strong>: it is what stops two accounts being made for the same student. Read it off your student card, digit by digit, before you tap confirm.</p>
+    <p>Forgot your password? "Forgot password" emails a code, then you type the new password twice. Changing your password from Settings → Account also needs a code, so that a phone left unlocked is not enough to take your account over.</p>
+    <div class="tip"><strong>Mistake people make:</strong> typing the registration number in a hurry. If it is wrong, email <a href="mailto:gradium.help@gmail.com">gradium.help@gmail.com</a> — it has to be freed by hand.</div>
+  </section>
+
+  <section id="past">
+    <h2>2. Put in your past results</h2>
+    <p>Two ways:</p>
+    <ul>
+      <li><strong>Import your transcript.</strong> Copy the text of your portal transcript into the import box. The app reads each semester, course, credit hours and grade, and links a repeated course to the earlier attempt by itself. A grade printed as <code>(D)</code> or <code>(F)</code> is read as bracketed, exactly as your transcript shows it.</li>
+      <li><strong>Add them by hand.</strong> Semesters → add a semester, set it to <em>Completed</em>, then add each course with its final grade.</li>
+    </ul>
+    <p>Check the imported semesters once before trusting the CGPA: the portal's layout changes now and then, and a course the app could not read is better fixed on day one.</p>
+    <div class="tip"><strong>Mistake people make:</strong> importing the transcript and also adding the same semester by hand, so courses are counted twice. Import first, then look before adding anything.</div>
+  </section>
+
+  <section id="current">
+    <h2>3. Your current semester</h2>
+    <p>You may have <strong>one Current semester</strong> at a time. Add your courses to it with the right credit hours; the section field is only for matching your timetable.</p>
+    <p>When the term ends, use <strong>End Semester</strong>. It turns your calculated grades into official ones, so they count in the CGPA — the app blocks it until every course has a grade. <strong>Reopen as Current</strong> does the reverse: grades are cleared and the marks boxes come back, so use it only if you ended the semester too early.</p>
+    <div class="tip"><strong>Mistake people make:</strong> leaving last term as Current. Until you end it, its courses stay predictions and the CGPA does not move.</div>
+  </section>
+
+  <section id="marks">
+    <h2>4. Marks and the breakdown</h2>
+    <p>Each course has a <strong>breakdown</strong>: the groups your teacher grades you on — quizzes, assignments, midterm, final — with a weight each. <strong>The weights must add up to 100%</strong>, and no weight may be empty or negative; the app refuses to save otherwise.</p>
+    <p>Inside a group you add items (Quiz 1, Quiz 2 …) with their total marks, and you enter what you obtained as you get them back.</p>
+    <p><strong>A group can count the best N items</strong> — "best 3 of 4 quizzes", for example. The lowest entered marks are dropped, and an item you have not entered yet always counts, so the app never asks you to score marks in a quiz it has already dropped.</p>
+    <p><strong>An item with no marks entered is assumed to be full marks.</strong> That is why a brand-new course shows 100.0 and an A: it is a prediction of what happens if everything goes perfectly, not a grade you have. It changes as you enter real marks.</p>
+    <div class="tip"><strong>Mistake people make:</strong> reading the A on a fresh course as a result. Nothing you have not entered has happened yet.</div>
+  </section>
+
+  <section id="numbers">
+    <h2>5. What the numbers mean</h2>
+    <ul>
+      <li><strong>Predicted grade</strong> — worked out from the marks you entered plus full marks for everything else. Current-semester courses show this.</li>
+      <li><strong>Official grade</strong> — the grade the university gave. Only official grades count in the CGPA.</li>
+      <li><strong>Semester GPA</strong> — your current semester, using predicted grades, so it moves as you enter marks.</li>
+      <li><strong>CGPA</strong> — finished semesters only. It does not move while a semester is still Current, however good the predictions look.</li>
+      <li><strong>Credit hours</strong> — "accepted" are the ones you have passed and finished; "in progress" are this semester's. They are shown separately, so 35 / 137 with 13 in progress means 35 are done and 13 are still being studied.</li>
+      <li><strong>The small arrow</strong> next to the GPA shows what your last marks entry did to it. It disappears after a day.</li>
+    </ul>
+    <p>Your grade comes from the university's <strong>relative grading</strong>: the highest mark in the class and the grade gap decide the boundaries. Both can be set per course, and Settings → Academic can apply your values to every course of the current semester at once.</p>
+    <div class="tip"><strong>Mistake people make:</strong> expecting the CGPA to rise mid-semester. It only moves when a semester is ended or an official grade is entered.</div>
+  </section>
+
+  <section id="deadlines">
+    <h2>6. Deadlines and reminders</h2>
+    <p>Add a deadline to any item — an assignment, a quiz, a project. The Schedule tab lists the current semester's deadlines, overdue ones first; a past semester's deadlines stay with it in the Archive.</p>
+    <p>Reminders are scheduled on the phone, so they arrive with the app closed. In Settings you control the master switch, the reminder types, and <strong>quiet hours</strong> (11 PM – 7 AM by default): a reminder that falls inside quiet hours is delivered when they end, or just before they start if the deadline itself is sooner.</p>
+    <p>If a reminder never arrives, check in this order: the master switch in Settings, quiet hours, and then Android's own notification permission for Gradium.</p>
+    <div class="tip"><strong>Mistake people make:</strong> expecting reminders on a second phone. They are scheduled on the phone where you added the deadline.</div>
+  </section>
+
+  <section id="rules">
+    <h2>7. Repeats, brackets, W / I / P</h2>
+    <ul>
+      <li><strong>Repeat</strong> — link the new attempt to the old one and the app applies the university rule: a repeated F is removed from the CGPA, and for other grades only the new attempt counts. The old attempt is tagged <em>Replaced</em>.</li>
+      <li><strong>Bracket</strong> — your choice to exclude a bad grade from the CGPA. The course must then be repeated, and <strong>a bracket is permanent</strong> (Regulation 12(4)): the only undo is deleting the course and adding it again. Test it first with "Bracket what-if" in the Calculator.</li>
+      <li><strong>W</strong> (withdrawn), <strong>I</strong> (incomplete) and <strong>P</strong> (pass) do not count towards the GPA. An I is flagged on your dashboard until you replace it.</li>
+    </ul>
+    <div class="tip"><strong>Mistake people make:</strong> bracketing to "clean up" a grade. It is permanent and the course still has to be repeated.</div>
+  </section>
+
+  <section id="schedule">
+    <h2>8. Timetable and date sheet</h2>
+    <p>Your class timetable and the midterm and final date sheets are published centrally — you do not type them in. When a new one is published, the app tells you and the changed rows carry an "Updated" tag for three days. Overlapping classes or exams are tagged "Clash", as a warning only.</p>
+    <p>They are matched to your courses by name and section, so a course name that differs from the published one may not match. If a class of yours is missing, check the course name and section first, then tell me.</p>
+  </section>
+
+  <section id="sync">
+    <h2>9. Syncing and a second phone</h2>
+    <p>Everything is saved on the phone first, so the app works with no internet. When you are online it syncs to your account, and the sync badge on the dashboard shows Synced, Syncing or Offline.</p>
+    <p>On a second phone, sign in with the same email and your data arrives. If you enter different marks on two phones between syncs, both are kept — each mark is merged on its own, and only a mark you changed on both phones takes the newer one.</p>
+    <p><strong>Files you attach stay on the phone you added them on.</strong> They are not uploaded, so on another phone the item shows a note that the file is not there.</p>
+    <p>Logging out clears the app on that phone and cancels its reminders; your data stays in your account.</p>
+  </section>
+
+  <section id="wrong">
+    <h2>10. "My GPA looks wrong"</h2>
+    <p>Work down this list — one of these is nearly always the answer:</p>
+    <ol>
+      <li><strong>Is last term still Current?</strong> End it, or its courses stay predictions and the CGPA does not include them.</li>
+      <li><strong>Does every course have the right credit hours?</strong> A 3 CH course entered as 1 changes everything.</li>
+      <li><strong>Is a course in there twice?</strong> Usually a transcript import plus the same semester added by hand.</li>
+      <li><strong>Do your breakdown weights add up to 100%?</strong> A course with the wrong weights scores nothing like your class result.</li>
+      <li><strong>Is the highest mark and grade gap right for that course?</strong> Relative grading follows the class, not a fixed percentage.</li>
+      <li><strong>Is a repeat linked?</strong> Without the link, both attempts count.</li>
+      <li><strong>Are the marks entered as marks, not percentages?</strong> 8 out of 10, not 80 out of 10.</li>
+      <li><strong>Blank items are assumed full marks</strong>, so an untouched course always looks like an A.</li>
+    </ol>
+    <p>If none of those explains it, send me a screenshot of the course and of the semester — that is usually enough to see it.</p>
+  </section>
+
+  <section id="help">
+    <h2>11. Getting help</h2>
+    <ul>
+      <li>Email <a href="mailto:gradium.help@gmail.com">gradium.help@gmail.com</a> — for a wrong registration number, an account problem, or anything that looks like a bug.</li>
+      <li>The Gradium WhatsApp group — where new versions of the app file are posted. When the app says an update is available, get the newest file from there.</li>
+      <li>In the app: More → Rules Book for the university regulations, More → About Gradium for the privacy policy and account deletion.</li>
+    </ul>
+  </section>
+
+  <footer>
+    Gradium · developed by Saad Khan · <a href="./">Privacy Policy</a> · <a href="./delete-account.html">Delete your account</a>
+  </footer>
+</main>
+</body>
+</html>
