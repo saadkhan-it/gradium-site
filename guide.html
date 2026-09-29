@@ -80,7 +80,7 @@
     <h2>3. Your current semester</h2>
     <p>You may have <strong>one Current semester</strong> at a time. Add your courses to it with the right credit hours; the section field is only for matching your timetable.</p>
     <p>When the term ends, use <strong>End Semester</strong>. It turns your calculated grades into official ones, so they count in the CGPA — the app blocks it until every course has a grade. <strong>Reopen as Current</strong> does the reverse: grades are cleared and the marks boxes come back, so use it only if you ended the semester too early.</p>
-    <p><strong>Type the course name and code exactly as your portal or transcript writes them.</strong> That is how the app recognises a repeat of an earlier attempt, matches your class timetable and date sheet, and finds the course in the roadmap. A course you name your own way still works, but it will not line up with any of those.</p>
+    <p><strong>Type the course name and code exactly as your portal or transcript writes them.</strong> That is how the app recognises a repeat of an earlier attempt, and matches your class timetable and date sheet. <strong>Pick from this term's offering</strong> in Add Course fills in the name and code for you — then choose the credit hours. A course you name your own way still works, but without its code it may not line up with those.</p>
     <div class="tip"><strong>Mistake people make:</strong> leaving last term as Current. Until you end it, its courses stay predictions and the CGPA does not move.</div>
   </section>
 
@@ -128,20 +128,18 @@
   <section id="schedule">
     <h2>8. Timetable and date sheet</h2>
     <p>Your class timetable and the midterm and final date sheets are published centrally — you do not type them in. When a new one is published, the app tells you and the changed rows carry an "Updated" tag for three days. Overlapping classes or exams are tagged "Clash", as a warning only.</p>
-    <p>They are matched to your courses by name and section, so a course name that differs from the published one may not match. If a class of yours is missing, check the course name and section first, then tell me.</p>
+    <p>They are matched to your courses by course code (or by name when a course has no code) and section. If a class of yours is missing, check the course code and section first, then tell me.</p>
   </section>
 
   <section id="names">
     <h2>8a. When a course is called something else</h2>
-    <p>The university renames courses and changes course codes from time to time, and the roadmap, the transcript and the offering list are not always updated together. Gradium matches courses by name, so two spellings of the same course look like two different courses to it.</p>
-    <p><strong>A real example.</strong> A transcript listed <em>Software Engineering-I</em>. The roadmap for the same degree calls it <em>Software Engineering</em>. When the student added <em>Software Requirement Engineering</em>, the app warned "Prerequisite not passed: Software Engineering" — although they had passed it. Same course, two names.</p>
+    <p>The university renames courses from time to time, so your transcript and this term's timetable may spell the same course differently. Gradium matches courses by their <strong>code</strong>: a transcript's <em>Software Engineering-I</em> and this term's <em>Software Engineering</em> share the code SE2223, so the app treats them as one course.</p>
     <p>What to do:</p>
     <ul>
-      <li><strong>Ignore that warning</strong> when you know you passed the course. Nothing is blocked: prerequisite notes are warnings, never a wall.</li>
-      <li><strong>Use your portal's spelling</strong> when you add courses, so your own semesters at least agree with each other and repeats link up.</li>
-      <li><strong>Tell me</strong> if a name mismatch keeps bothering you — the roadmap is published centrally, so I can add the other spelling for everyone without a new app file.</li>
+      <li><strong>Always fill in the course code</strong>, copied from your portal or transcript. With the code, a renamed course still links to its repeat and finds its classes and exams.</li>
+      <li><strong>Without a code</strong>, the app can only compare names, so type the name exactly as your portal writes it.</li>
     </ul>
-    <p>This is not the app guessing wrong about your results: your marks, GPA and CGPA are unaffected by a name mismatch. It only affects prerequisite warnings, roadmap ticks and timetable matching.</p>
+    <p>This never affects your results: marks, GPA and CGPA do not depend on names or codes. It only affects repeat links, course history and timetable matching.</p>
   </section>
 
   <section id="sync">
@@ -164,7 +162,6 @@
       <li><strong>Is a repeat linked?</strong> Without the link, both attempts count.</li>
       <li><strong>Are the marks entered as marks, not percentages?</strong> 8 out of 10, not 80 out of 10.</li>
       <li><strong>Blank items are assumed full marks</strong>, so an untouched course always looks like an A.</li>
-      <li><strong>A prerequisite warning is not a GPA problem</strong> — see <a href="#names">"When a course is called something else"</a>.</li>
     </ol>
     <p>If none of those explains it, send me a screenshot of the course and of the semester — that is usually enough to see it.</p>
   </section>
