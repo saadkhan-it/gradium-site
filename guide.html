@@ -69,7 +69,7 @@
     <h2>2. Put in your past results</h2>
     <p>Two ways:</p>
     <ul>
-      <li><strong>Import your transcript.</strong> Copy the text of your portal transcript into the import box. The app reads each semester, course, credit hours and grade, and links a repeated course to the earlier attempt by itself. A grade printed as <code>(D)</code> or <code>(F)</code> is read as bracketed, exactly as your transcript shows it.</li>
+      <li><strong>Import your transcript.</strong> Semesters → <strong>Upload latest transcript</strong>, then pick your transcript PDF (the text PDF from the portal, not a photo). It is read on your phone and never uploaded. The app reads each semester, course, credit hours and grade, and links a repeated course to the earlier attempt by itself. A grade printed as <code>(D)</code> or <code>(F)</code> is read as bracketed, exactly as your transcript shows it.</li>
       <li><strong>Add them by hand.</strong> Semesters → add a semester, set it to <em>Completed</em>, then add each course with its final grade.</li>
     </ul>
     <p>Check the imported semesters once before trusting the CGPA: the portal's layout changes now and then, and a course the app could not read is better fixed on day one.</p>
@@ -81,7 +81,7 @@
     <p>You may have <strong>one Current semester</strong> at a time. Add your courses to it with the right credit hours; the section field is only for matching your timetable.</p>
     <p>When the term ends, use <strong>End Semester</strong>. It turns your calculated grades into official ones, so they count in the CGPA — the app blocks it until every course has a grade. <strong>Reopen as Current</strong> does the reverse: grades are cleared and the marks boxes come back, so use it only if you ended the semester too early.</p>
     <p><strong>Type the course name and code exactly as your portal or transcript writes them.</strong> That is how the app recognises a repeat of an earlier attempt, and matches your class timetable and date sheet. <strong>Pick from this term's offering</strong> in Add Course fills in the name and code for you — then choose the credit hours. A course you name your own way still works, but without its code it may not line up with those.</p>
-    <div class="tip"><strong>Mistake people make:</strong> leaving last term as Current. Until you end it, its courses stay predictions and the CGPA does not move.</div>
+    <div class="tip"><strong>Mistake people make:</strong> leaving last term as Current. Until you end it, its courses stay predictions, and the Completed CGPA leaves them out.</div>
   </section>
 
   <section id="marks">
@@ -97,19 +97,19 @@
     <h2>5. What the numbers mean</h2>
     <ul>
       <li><strong>Predicted grade</strong> — worked out from the marks you entered plus full marks for everything else. Current-semester courses show this.</li>
-      <li><strong>Official grade</strong> — the grade the university gave. Only official grades count in the CGPA.</li>
+      <li><strong>Official grade</strong> — the grade the university gave. The Completed CGPA counts only these.</li>
       <li><strong>Semester GPA</strong> — your current semester, using predicted grades, so it moves as you enter marks.</li>
       <li><strong>CGPA</strong> — the <strong>Completed / Current</strong> switch on Home and Progress decides which. <em>Completed</em>: finished semesters only, so it does not move while you enter marks. <em>Current</em>: your current semester counts too, using its predicted grades. The app remembers your choice.</li>
       <li><strong>Credit hours</strong> — the Home card shows four numbers: <em>attempted</em> (every course except W), <em>earned</em> (finished courses that count in the CGPA, F included), <em>accepted</em> (finished and passed — what counts toward your degree) and <em>in progress</em> (this semester, shown only on Current). So 35 / 137 means 35 are done.</li>
       <li><strong>The small arrow</strong> next to the GPA shows what your last marks entry did to it. It disappears after a day.</li>
     </ul>
-    <p>Your grade comes from the university's <strong>relative grading</strong>: the highest mark in the class and the grade gap decide the boundaries. Both can be set per course, and Settings → Academic can apply your values to every course of the current semester at once.</p>
-    <div class="tip"><strong>Mistake people make:</strong> expecting the CGPA to rise mid-semester. It only moves when a semester is ended or an official grade is entered.</div>
+    <p>Your grade comes from the university's <strong>relative grading</strong>: the highest mark in the class and the grade gap decide the boundaries. Both can be set per course with the <strong>Grading</strong> button on the course screen, and Settings → Academic can apply your values to every course of the current semester at once.</p>
+    <div class="tip"><strong>Mistake people make:</strong> reading the Current CGPA as your real one. It includes predicted grades; switch to <em>Completed</em> for the CGPA you have actually earned.</div>
   </section>
 
   <section id="deadlines">
     <h2>6. Deadlines and reminders</h2>
-    <p>Add a deadline to any item — an assignment, a quiz, a project. The Schedule tab lists the current semester's deadlines, overdue ones first; a past semester's deadlines stay with it in the Archive.</p>
+    <p>Add a deadline to any item — an assignment, a quiz, a project. The Schedule tab lists the current semester's deadlines, overdue ones first; a past semester's deadlines stay with that semester (More → Progress).</p>
     <p>Reminders are scheduled on the phone, so they arrive with the app closed. In Settings you control the master switch, the reminder types, and <strong>quiet hours</strong> (11 PM – 7 AM by default): a reminder that falls inside quiet hours is delivered when they end, or just before they start if the deadline itself is sooner.</p>
     <p>If a reminder never arrives, check in this order: the master switch in Settings, quiet hours, and then Android's own notification permission for Gradium.</p>
     <div class="tip"><strong>Mistake people make:</strong> expecting reminders on a second phone. They are scheduled on the phone where you added the deadline.</div>
@@ -118,7 +118,7 @@
   <section id="rules">
     <h2>7. Repeats, brackets, W / I / P</h2>
     <ul>
-      <li><strong>Repeat</strong> — link the new attempt to the old one (<em>Repeat of…</em> when you add the course, or later on the course screen) and the app applies the university rule: a repeated F is removed from the CGPA, and for other grades only the new attempt counts. The old attempt is tagged <em>Replaced</em>.</li>
+      <li><strong>Repeat</strong> — link the new attempt to the old one (<em>Repeat of…</em> when you add the course, or later on the course screen) and the app applies the university rule: a repeated F is removed from the CGPA, and when you repeat a course you had passed, the higher of the two grades counts. The old attempt is tagged <em>Replaced</em>.</li>
       <li><strong>Bracket</strong> — your choice to exclude a bad grade from the CGPA. The course must then be repeated, and <strong>a bracket is permanent</strong> (Regulation 12(4)): the only undo is deleting the course and adding it again. Test it first with "Bracket what-if" in the Calculator.</li>
       <li><strong>W</strong> (withdrawn), <strong>I</strong> (incomplete) and <strong>P</strong> (pass) do not count towards the GPA. An I is flagged on your dashboard until you replace it.</li>
     </ul>
@@ -147,14 +147,14 @@
     <p>Everything is saved on the phone first, so the app works with no internet. When you are online it syncs to your account, and the sync badge on the dashboard shows Synced, Syncing or Offline.</p>
     <p>On a second phone, sign in with the same email and your data arrives. If you enter different marks on two phones between syncs, both are kept — each mark is merged on its own, and only a mark you changed on both phones takes the newer one.</p>
     <p><strong>Files you attach stay on the phone you added them on.</strong> They are not uploaded, so on another phone the item shows a note that the file is not there.</p>
-    <p>Logging out clears the app on that phone and cancels its reminders; your data stays in your account.</p>
+    <p>Logging out clears the app on that phone and cancels its reminders; your data stays in your account. Attached files stay on the phone too, ready for when you sign in again.</p>
   </section>
 
   <section id="wrong">
     <h2>10. "My GPA looks wrong"</h2>
     <p>Work down this list — one of these is nearly always the answer:</p>
     <ol>
-      <li><strong>Is last term still Current?</strong> End it, or its courses stay predictions and the CGPA does not include them.</li>
+      <li><strong>Is last term still Current?</strong> End it, or its courses stay predictions (the Completed CGPA leaves them out; the Current one counts them as predictions). Also check which way the Completed / Current switch is set.</li>
       <li><strong>Does every course have the right credit hours?</strong> A 3 CH course entered as 1 changes everything.</li>
       <li><strong>Is a course in there twice?</strong> Usually a transcript import plus the same semester added by hand.</li>
       <li><strong>Do your breakdown weights add up to 100%?</strong> A course with the wrong weights scores nothing like your class result.</li>
