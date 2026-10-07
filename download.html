@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Download Gradium</title>
+<style>
+  :root { color-scheme: light dark; --bg:#f8fafc; --fg:#0f172a; --muted:#475569; --line:#e2e8f0; --accent:#2563eb; --on-accent:#ffffff; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0f172a; --fg:#e2e8f0; --muted:#94a3b8; --line:#1e293b; --accent:#60a5fa; --on-accent:#0f172a; } }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 16px 72px; }
+  h1 { font-size: 1.9rem; margin: 0 0 4px; letter-spacing:-0.02em; }
+  h2 { font-size: 1.15rem; margin: 34px 0 8px; }
+  p, li { color: var(--fg); }
+  .sub { color: var(--muted); font-size: .9rem; margin: 0 0 28px; }
+  ol { padding-left: 20px; }
+  li { margin: 8px 0; }
+  a { color: var(--accent); }
+  .button { display: inline-block; background: var(--accent); color: var(--on-accent); text-decoration: none; font-weight: 700; padding: 14px 28px; border-radius: 12px; font-size: 1.05rem; }
+  .meta { color: var(--muted); font-size: .9rem; margin: 10px 0 0; min-height: 1.5em; }
+  footer { margin-top: 44px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: .85rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Gradium for Android</h1>
+  <p class="sub">Your semesters, marks, GPA, deadlines and timetable in one place.</p>
+
+  <!-- always the newest release: the APK must be uploaded to the release as "Gradium.apk" -->
+  <a class="button" href="https://github.com/saadkhan-it/gradium-site/releases/latest/download/Gradium.apk">Download Gradium</a>
+  <p class="meta" id="meta"></p>
+
+  <h2>How to install</h2>
+  <ol>
+    <li>Tap <strong>Download Gradium</strong>. If Chrome warns about the file, tap <strong>Download anyway</strong>. Chrome shows this for every app that is not from the Play Store.</li>
+    <li>Open the downloaded file. If your phone asks, allow installing apps from Chrome.</li>
+    <li>Tap <strong>Install</strong>. A new version installs over the old one, and your data stays in your account.</li>
+  </ol>
+
+  <h2>On iPhone?</h2>
+  <p>Use the <a href="https://saadkhan-it.github.io/gradium-site/app/">Gradium web app</a>: open it in Safari, tap <strong>Share</strong>, then <strong>Add to Home Screen</strong>.</p>
+
+  <footer>
+    <a href="./">Privacy policy</a> · <a href="guide.html">User guide</a><br>
+    Gradium is an independent student project. It is not an official university app.
+  </footer>
+</main>
+<script>
+  // version and size of the newest release, read from GitHub; the page works without it
+  fetch('https://api.github.com/repos/saadkhan-it/gradium-site/releases/latest')
+    .then((r) => (r.ok ? r.json() : Promise.reject()))
+    .then((rel) => {
+      const apk = (rel.assets || []).find((a) => a.name === 'Gradium.apk');
+      const size = apk ? ` · ${(apk.size / 1048576).toFixed(1)} MB` : '';
+      document.getElementById('meta').textContent = `Version ${String(rel.tag_name).replace(/^v/, '')}${size}`;
+    })
+    .catch(() => {});
+</script>
+</body>
+</html>
