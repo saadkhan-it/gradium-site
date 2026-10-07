@@ -1,0 +1,189 @@
+exam_type,course_code,course_name,section,program,date,start,end
+final,AI4322,Data Mining,1,BAI,2027-01-25,13:30,16:30
+final,SE2143,Data Structures,1,BSE,2027-01-25,13:30,16:30
+final,SE2143,Data Structures,2,BSE,2027-01-25,13:30,16:30
+final,SE2143,Data Structures,3,BSE,2027-01-25,13:30,16:30
+final,SE2143,Data Structures,4,BSE,2027-01-25,13:30,16:30
+final,AI2143,Data Structures,2,BAI,2027-01-25,13:30,16:30
+final,SE3712,Information Security,2,BSE,2027-01-25,13:30,16:30
+final,SE3712,Information Security,3,BSE,2027-01-25,13:30,16:30
+final,SE3712,Information Security,1,BSE,2027-01-25,13:30,16:30
+final,AI3712,Information Security,1,BAI,2027-01-25,13:30,16:30
+final,AI3712,Information Security,2,BAI,2027-01-25,13:30,16:30
+final,SE1133,Introduction to Programming,2,BSE,2027-01-25,13:30,16:30
+final,SE1133,Introduction to Programming,4,BSE,2027-01-25,13:30,16:30
+final,SE1133,Introduction to Programming,3,BSE,2027-01-25,13:30,16:30
+final,SE1133,Introduction to Programming,1,BSE,2027-01-25,13:30,16:30
+final,AI1133,Introduction to Programming,1,BAI,2027-01-25,13:30,16:30
+final,AI1133,Introduction to Programming,2,BAI,2027-01-25,13:30,16:30
+final,SE4272,Software Project Management,2,BSE,2027-01-25,13:30,16:30
+final,SE4272,Software Project Management,1,BSE,2027-01-25,13:30,16:30
+final,SE4272,Software Project Management,3,BSE,2027-01-25,13:30,16:30
+final,AI3842,Artificial Neural Networks and Deep Learning,1,BAI,2027-01-26,09:00,12:00
+final,SEG2812,Civics and Professional Ethics,1,BSE,2027-01-26,09:00,12:00
+final,SEG2812,Civics and Professional Ethics,2,BSE,2027-01-26,09:00,12:00
+final,AIG2812,Civics and Professional Ethics,2,BAI,2027-01-26,09:00,12:00
+final,AIG2812,Civics and Professional Ethics,1,BAI,2027-01-26,09:00,12:00
+final,SE1143,Object Oriented Programming,2,BSE,2027-01-26,09:00,12:00
+final,SE1143,Object Oriented Programming,1,BSE,2027-01-26,09:00,12:00
+final,AI1143,Object Oriented Programming,1,BAI,2027-01-26,09:00,12:00
+final,AI1143,Object Oriented Programming,2,BAI,2027-01-26,09:00,12:00
+final,SE3612,Software Quality Engineering,1,BSE,2027-01-26,09:00,12:00
+final,SE3612,Software Quality Engineering,2,BSE,2027-01-26,09:00,12:00
+final,AI3163,Analysis of Algorithms,2,BAI,2027-01-27,13:30,16:30
+final,AI3163,Analysis of Algorithms,1,BAI,2027-01-27,13:30,16:30
+final,SE3163,Analysis of Algorithms,3,BSE,2027-01-27,13:30,16:30
+final,SE3163,Analysis of Algorithms,2,BSE,2027-01-27,13:30,16:30
+final,SE3163,Analysis of Algorithms,1,BSE,2027-01-27,13:30,16:30
+final,SEG1612,Applications of Information and Communication Technologies,4,BSE,2027-01-27,13:30,16:30
+final,SEG1612,Applications of Information and Communication Technologies,1,BSE,2027-01-27,13:30,16:30
+final,SEG1612,Applications of Information and Communication Technologies,3,BSE,2027-01-27,13:30,16:30
+final,SEG1612,Applications of Information and Communication Technologies,2,BSE,2027-01-27,13:30,16:30
+final,AIG1612,Applications of Information and Communication Technologies,1,BAI,2027-01-27,13:30,16:30
+final,AIG1612,Applications of Information and Communication Technologies,2,BAI,2027-01-27,13:30,16:30
+final,AI2313,Database Systems,1,BAI,2027-01-27,13:30,16:30
+final,AI2313,Database Systems,2,BAI,2027-01-27,13:30,16:30
+final,SE4882,Data Science,2,BSE,2027-01-27,13:30,16:30
+final,SE4882,Data Science,3,BSE,2027-01-27,13:30,16:30
+final,SE4882,Data Science,1,BSE,2027-01-27,13:30,16:30
+final,SE2313,Introduction to Database Systems,2,BSE,2027-01-27,13:30,16:30
+final,SE2313,Introduction to Database Systems,3,BSE,2027-01-27,13:30,16:30
+final,SE2313,Introduction to Database Systems,4,BSE,2027-01-27,13:30,16:30
+final,SE2313,Introduction to Database Systems,1,BSE,2027-01-27,13:30,16:30
+final,AI4822,Natural Language Processing,1,BAI,2027-01-27,13:30,16:30
+final,SE3512,Software Construction and Development,1,BSE,2027-01-28,09:00,11:50
+final,AI3832,Computer Vision,1,BAI,2027-01-28,09:00,12:00
+final,AI2512,Digital Logic Design,1,BAI,2027-01-28,09:00,12:00
+final,AI2512,Digital Logic Design,2,BAI,2027-01-28,09:00,12:00
+final,SE2512,Digital Logic Design,1,BSE,2027-01-28,09:00,12:00
+final,SE2512,Digital Logic Design,2,BSE,2027-01-28,09:00,12:00
+final,SEG1123,Expository Writing,2,BSE,2027-01-28,09:00,12:00
+final,SEG1123,Expository Writing,1,BSE,2027-01-28,09:00,12:00
+final,AIG1123,Expository Writing,1,BAI,2027-01-28,09:00,12:00
+final,AIG1123,Expository Writing,2,BAI,2027-01-28,09:00,12:00
+final,SE3512,Software Construction and Development,2,BSE,2027-01-28,09:00,12:00
+final,AI7833,Advanced Analysis of Algorithms,1,MAI,2027-01-28,18:00,21:00
+final,SEG1513,Calculus and Analytical Geometry,4,BSE,2027-01-29,13:30,16:30
+final,SEG1513,Calculus and Analytical Geometry,3,BSE,2027-01-29,13:30,16:30
+final,SEG1513,Calculus and Analytical Geometry,1,BSE,2027-01-29,13:30,16:30
+final,SEG1513,Calculus and Analytical Geometry,2,BSE,2027-01-29,13:30,16:30
+final,SE3522,Computer Organization and Assembly Language,2,BSE,2027-01-29,13:30,16:30
+final,SE3522,Computer Organization and Assembly Language,3,BSE,2027-01-29,13:30,16:30
+final,SE3522,Computer Organization and Assembly Language,1,BSE,2027-01-29,13:30,16:30
+final,SE4192,Mobile Application Development,1,BSE,2027-01-29,13:30,16:30
+final,SE4192,Mobile Application Development,2,BSE,2027-01-29,13:30,16:30
+final,SE4192,Mobile Application Development,3,BSE,2027-01-29,13:30,16:30
+final,AI4882,Speech Processing,1,BAI,2027-01-29,13:30,16:30
+final,AIG1513,Calculus and Analytical Geometry,2,BAI,2027-01-29,14:00,17:00
+final,AIG1513,Calculus and Analytical Geometry,1,BAI,2027-01-29,14:00,17:00
+final,AI3522,Computer Organization & Assembly Language,2,BAI,2027-01-29,14:00,17:00
+final,AI3522,Computer Organization & Assembly Language,1,BAI,2027-01-29,14:00,17:00
+final,AI2772,Computer Networks,2,BAI,2027-01-30,09:00,12:00
+final,AI2772,Computer Networks,1,BAI,2027-01-30,09:00,12:00
+final,SE2772,Computer Networks,1,BSE,2027-01-30,09:00,12:00
+final,SE2772,Computer Networks,2,BSE,2027-01-30,09:00,12:00
+final,AI3312,Knowledge Representation and Reasoning,1,BAI,2027-01-30,09:00,12:00
+final,SE3542,Web Engineering,1,BSE,2027-01-30,09:00,12:00
+final,SE3542,Web Engineering,2,BSE,2027-01-30,09:00,12:00
+final,SEG1021,Fehm-ul-Quran I,1,BSE,2027-01-30,13:30,15:00
+final,SEG1031,Fehm-ul-Quran II,3,BSE,2027-01-30,13:30,16:30
+final,SEG1031,Fehm-ul-Quran II,2,BSE,2027-01-30,13:30,16:30
+final,SEG1031,Fehm-ul-Quran II,1,BSE,2027-01-30,13:30,16:30
+final,SEG1031,Fehm-ul-Quran II,4,BSE,2027-01-30,13:30,16:30
+final,SEG1021,Fehm-ul-Quran I,2,BSE,2027-01-30,13:30,16:30
+final,AIG1021,Fehm-ul-Quran I,2,BAI,2027-01-30,13:30,16:30
+final,AIG1021,Fehm-ul-Quran I,1,BAI,2027-01-30,13:30,16:30
+final,AIG1031,Fehm-ul-Quran II,1,BAI,2027-01-30,13:30,16:30
+final,AIG1031,Fehm-ul-Quran II,2,BAI,2027-01-30,13:30,16:30
+final,AIG1312,Applied Physics,1,BAI,2027-02-01,09:00,12:00
+final,AIG1312,Applied Physics,2,BAI,2027-02-01,09:00,12:00
+final,SEG1312,Applied Physics,1,BSE,2027-02-01,09:00,12:00
+final,SEG1312,Applied Physics,2,BSE,2027-02-01,09:00,12:00
+final,SEG1113,Functional English,4,BSE,2027-02-01,13:30,16:30
+final,SEG1113,Functional English,3,BSE,2027-02-01,13:30,16:30
+final,SEG1113,Functional English,2,BSE,2027-02-01,13:30,16:30
+final,SEG1113,Functional English,1,BSE,2027-02-01,13:30,16:30
+final,AIG1113,Functional English,1,BAI,2027-02-01,13:30,16:30
+final,AIG1113,Functional English,2,BAI,2027-02-01,13:30,16:30
+final,MTAI1033,Linear Algebra,1,BAI,2027-02-01,13:30,16:30
+final,MTAI1033,Linear Algebra,2,BAI,2027-02-01,13:30,16:30
+final,MTSE1033,Linear Algebra,4,BSE,2027-02-01,13:30,16:30
+final,MTSE1033,Linear Algebra,3,BSE,2027-02-01,13:30,16:30
+final,MTSE1033,Linear Algebra,2,BSE,2027-02-01,13:30,16:30
+final,MTSE1033,Linear Algebra,1,BSE,2027-02-01,13:30,16:30
+final,SE3432,Parallel and Distributed Computing,1,BSE,2027-02-01,13:30,16:30
+final,SE3432,Parallel and Distributed Computing,2,BSE,2027-02-01,13:30,16:30
+final,SE3432,Parallel and Distributed Computing,3,BSE,2027-02-01,13:30,16:30
+final,AI3432,Parallel and Distributed Computing,1,BAI,2027-02-01,13:30,16:30
+final,AI3432,Parallel and Distributed Computing,2,BAI,2027-02-01,13:30,16:30
+final,AI3072,Advanced Statistics,1,BAI,2027-02-02,09:00,12:00
+final,SE3343,Automated Software Testing,2,BSE,2027-02-02,09:00,12:00
+final,SE3343,Automated Software Testing,1,BSE,2027-02-02,09:00,12:00
+final,MGSE1003,Introduction to Management,2,BSE,2027-02-02,09:00,12:00
+final,MGSE1003,Introduction to Management,1,BSE,2027-02-02,09:00,12:00
+final,AI2412,Operating Systems,2,BAI,2027-02-02,09:00,12:00
+final,AI2412,Operating Systems,1,BAI,2027-02-02,09:00,12:00
+final,SE2412,Operating Systems,2,BSE,2027-02-02,09:00,12:00
+final,SE2412,Operating Systems,1,BSE,2027-02-02,09:00,12:00
+final,AIG1012,Islamic Studies/Ethics,2,BAI,2027-02-02,13:30,16:30
+final,AIG1012,Islamic Studies/Ethics,1,BAI,2027-02-02,13:30,16:30
+final,SEG1012,Islamic Studies/Ethics,1,BSE,2027-02-02,13:30,16:30
+final,SEG1012,Islamic Studies/Ethics,2,BSE,2027-02-02,13:30,16:30
+final,HMAI4033,Technical and Business Writing,1,BAI,2027-02-02,13:30,16:30
+final,HMSE4033,Technical and Business Writing,2,BSE,2027-02-02,13:30,16:30
+final,HMSE4033,Technical and Business Writing,3,BSE,2027-02-02,13:30,16:30
+final,HMSE4033,Technical and Business Writing,1,BSE,2027-02-02,13:30,16:30
+final,SE3272,HCI and Computer Graphics,1,BSE,2027-02-03,09:00,12:00
+final,SE3272,HCI and Computer Graphics,3,BSE,2027-02-03,13:30,16:30
+final,SE3272,HCI and Computer Graphics,2,BSE,2027-02-03,13:30,16:30
+final,AI4272,HCI and Computer Graphics,1,BAI,2027-02-03,13:30,16:30
+final,AI3812,Machine Learning,1,BAI,2027-02-03,13:30,16:30
+final,AI3812,Machine Learning,2,BAI,2027-02-03,13:30,16:30
+final,SEG1412,Sociology,2,BSE,2027-02-03,13:30,16:30
+final,SEG1412,Sociology,1,BSE,2027-02-03,13:30,16:30
+final,SEG1412,Sociology,4,BSE,2027-02-03,13:30,16:30
+final,SEG1412,Sociology,3,BSE,2027-02-03,13:30,16:30
+final,AIG1412,Sociology,2,BAI,2027-02-03,13:30,16:30
+final,AIG1412,Sociology,1,BAI,2027-02-03,13:30,16:30
+final,CS7783,Advanced Cryptography,1,MAI,2027-02-03,18:00,21:00
+final,CS7783,Advanced Cryptography,1,MCS,2027-02-03,18:00,21:00
+final,SE3812,Artificial Intelligence,2,BSE,2027-02-04,09:00,12:00
+final,SE3812,Artificial Intelligence,1,BSE,2027-02-04,09:00,12:00
+final,SE4573,Blockchain Technology,1,BSE,2027-02-04,09:00,12:00
+final,SE4573,Blockchain Technology,2,BSE,2027-02-04,09:00,12:00
+final,SEG1573,Discrete Structures,1,BSE,2027-02-04,09:00,12:00
+final,SEG1573,Discrete Structures,2,BSE,2027-02-04,09:00,12:00
+final,AIG1573,Discrete Structures,1,BAI,2027-02-04,09:00,12:00
+final,AIG1573,Discrete Structures,2,BAI,2027-02-04,09:00,12:00
+final,ACAI3003,Financial Accounting,1,BAI,2027-02-04,09:00,12:00
+final,MTAI2053,Multivariable Calculus,2,BAI,2027-02-04,09:00,12:00
+final,MTAI2053,Multivariable Calculus,1,BAI,2027-02-04,09:00,12:00
+final,MTSE2053,Multivariable Calculus,1,BSE,2027-02-04,09:00,12:00
+final,MTSE2053,Multivariable Calculus,2,BSE,2027-02-04,09:00,12:00
+final,SE4743,Internet of Things,3,BSE,2027-02-04,13:30,16:30
+final,SE4743,Internet of Things,2,BSE,2027-02-04,13:30,16:30
+final,SE4743,Internet of Things,1,BSE,2027-02-04,13:30,16:30
+final,AIG1022,Ideology and Constitution of Pakistan,1,BAI,2027-02-06,09:00,12:00
+final,AIG1022,Ideology and Constitution of Pakistan,2,BAI,2027-02-06,09:00,12:00
+final,SEG1022,Ideology and Constitution of Pakistan,1,BSE,2027-02-06,09:00,12:00
+final,SEG1022,Ideology and Constitution of Pakistan,3,BSE,2027-02-06,09:00,12:00
+final,SEG1022,Ideology and Constitution of Pakistan,2,BSE,2027-02-06,09:00,12:00
+final,SEG1032,Pakistan Studies,1,BSE,2027-02-06,09:00,12:00
+final,SEG1032,Pakistan Studies,2,BSE,2027-02-06,09:00,12:00
+final,AIG1032,Pakistan Studies,2,BAI,2027-02-06,09:00,12:00
+final,AIG1032,Pakistan Studies,1,BAI,2027-02-06,09:00,12:00
+final,AI2822,Programming for AI,2,BAI,2027-02-06,09:00,12:00
+final,AI2822,Programming for AI,1,BAI,2027-02-06,09:00,12:00
+final,AI2822,Programming for AI,1,BAI,2027-02-06,09:00,12:00
+final,AI2822,Programming for AI,2,BAI,2027-02-06,09:00,12:00
+final,SE2262,Software Requirement Engineering,2,BSE,2027-02-06,09:00,12:00
+final,SE2262,Software Requirement Engineering,1,BSE,2027-02-06,09:00,12:00
+final,SE3313,Software Design and Architecture,1,BSE,2027-02-06,13:30,16:30
+final,SE3313,Software Design and Architecture,2,BSE,2027-02-06,13:30,16:30
+final,SE3313,Software Design and Architecture,3,BSE,2027-02-06,13:30,16:30
+final,SE2223,Software Engineering,2,BSE,2027-02-06,13:30,16:30
+final,SE2223,Software Engineering,1,BSE,2027-02-06,13:30,16:30
+final,SE2223,Software Engineering,4,BSE,2027-02-06,13:30,16:30
+final,SE2223,Software Engineering,3,BSE,2027-02-06,13:30,16:30
+final,AI3223,Software Engineering,1,BAI,2027-02-06,13:30,16:30
+final,AI3223,Software Engineering,2,BAI,2027-02-06,13:30,16:30

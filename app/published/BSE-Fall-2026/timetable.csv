@@ -1,0 +1,268 @@
+course_code,course_name,section,day,start,end,room
+MTSE2053,Multivariable Calculus,S1,Monday,08:00,09:50,B5
+SE1133,Introduction to Programming,S2,Monday,08:00,09:50,B2
+SE1133,Introduction to Programming,S4,Monday,08:00,09:50,B4
+SE2412,Operating Systems,S2,Monday,08:00,09:50,B6
+SE3271,HCI and Computer Graphics Lab,S1,Monday,08:00,10:50,Ins Lab 14 H
+SE3511,Software Construction and Development Lab,S2,Monday,08:00,10:50,Ins Lab 2 M
+SE3711,Information Security Lab,S3,Monday,08:00,10:50,Cad Lab E
+SE4271,Software Project Management Lab,S4,Monday,08:00,10:50,Ins Lab 4 M
+SE4881,Data Science Lab,S2,Monday,08:00,10:50,Ins Lab 6 M
+SEG1113,Functional English,S1,Monday,08:00,09:50,B1
+SEG1113,Functional English,S3,Monday,08:00,09:50,B3
+SEG1311,Applied Physics Lab,S1,Monday,08:00,10:50,Physics Lab F
+MTSE2053,Multivariable Calculus,S2,Monday,10:00,10:50,B5
+SE1133,Introduction to Programming,S1,Monday,10:00,10:50,B2
+SE1133,Introduction to Programming,S3,Monday,10:00,10:50,B4
+SEG1113,Functional English,S2,Monday,10:00,10:50,B1
+SEG1113,Functional English,S4,Monday,10:00,10:50,B3
+SEG2812,Civics and Professional Ethics,S1,Monday,10:00,10:50,B6
+SE1143,Object Oriented Programming,S1,Monday,11:00,12:50,B1
+SE2143,Data Structures,S1,Monday,11:00,12:50,B3
+SE2143,Data Structures,S3,Monday,11:00,12:50,B5
+SE2223,Software Engineering,S2,Monday,11:00,12:50,B4
+SE2223,Software Engineering,S4,Monday,11:00,12:50,B6
+SE3431,Parallel and Distributed Computing Lab,S1,Monday,11:00,14:10,Ins Lab 4 M
+SE3431,Parallel and Distributed Computing Lab,S3,Monday,11:00,14:10,Ins Lab 14 H
+SE3541,Web Engineering Lab,S1,Monday,11:00,14:10,Ins Lab 2 M
+SE4271,Software Project Management Lab,S2,Monday,11:00,14:10,Ins Lab 6 M
+SEG1123,Expository Writing,S2,Monday,11:00,12:50,B2
+SEG1611,Applications of Information and Communication Technologies Lab,S1,Monday,11:00,14:10,
+SEG1611,Applications of Information and Communication Technologies Lab,S3,Monday,11:00,14:10,
+SE1143,Object Oriented Programming,S2,Monday,13:20,14:10,B1
+SE2143,Data Structures,S2,Monday,13:20,14:10,B3
+SE2143,Data Structures,S4,Monday,13:20,14:10,B5
+SE2223,Software Engineering,S1,Monday,13:20,14:10,B4
+SE2223,Software Engineering,S3,Monday,13:20,14:10,B6
+SEG1123,Expository Writing,S1,Monday,13:20,14:10,B2
+HMSE4033,Technical and Business Writing,S1,Monday,14:20,16:10,B6
+MGSE1003,Introduction to Management,S1,Monday,14:20,16:10,J4
+SE2311,Introduction to Database Systems Lab,S1,Monday,14:20,17:10,Ins Lab 2 M
+SE2311,Introduction to Database Systems Lab,S5,Monday,14:20,17:10,Ins Lab 4 M
+SE2771,Computer Networks Lab,S1,Monday,14:20,17:10,Ins LAB 13 H
+SE2771,Computer Networks Lab,S2,Monday,14:20,17:10,Ins Lab 6 M
+SE3163,Analysis of Algorithms,S2,Monday,14:20,16:10,B2
+SE3313,Software Design and Architecture,S1,Monday,14:20,16:10,B1
+SE3343,Automated Software Testing,S1,Monday,14:20,16:10,B4
+SE3522,Computer Organization and Assembly Language,S3,Monday,14:20,16:10,B3
+SE3612,Software Quality Engineering,S2,Monday,14:20,16:10,B5
+SE4743,Internet of Things,S2,Monday,14:20,16:10,F4
+SE4192,Mobile Application Development,S3,Monday,15:20,16:10,J1
+HMSE4033,Technical and Business Writing,S2,Monday,16:20,17:10,B6
+SE3163,Analysis of Algorithms,S1,Monday,16:20,17:10,B2
+SE3313,Software Design and Architecture,S2,Monday,16:20,17:10,B1
+SE3343,Automated Software Testing,S2,Monday,16:20,17:10,B4
+SE3712,Information Security,S3,Monday,16:20,17:10,B3
+SE4573,Blockchain Technology,S1,Monday,16:20,17:10,J4
+SE4743,Internet of Things,S1,Monday,16:20,17:10,J1
+SEG1021,Fehm-ul-Quran I,S1,Monday,18:00,20:50,B1
+SEG1021,Fehm-ul-Quran I,S2,Monday,18:00,20:50,B2
+SEG1031,Fehm-ul-Quran II,S1,Monday,18:00,20:50,B3
+SEG1031,Fehm-ul-Quran II,S2,Monday,18:00,20:50,B4
+SEG1031,Fehm-ul-Quran II,S3,Monday,18:00,20:50,B5
+SEG1031,Fehm-ul-Quran II,S4,Monday,18:00,20:50,B6
+SE2512,Digital Logic Design,S1,Tuesday,08:00,09:50,B5
+SE2772,Computer Networks,S2,Tuesday,08:00,09:50,B6
+SE3521,Computer Organization and Assembly Language Lab,S2,Tuesday,08:00,10:50,Cad Lab E
+SE3611,Software Quality Engineering Lab,S1,Tuesday,08:00,10:50,Ins Lab 2 M
+SE3711,Information Security Lab,S4,Tuesday,08:00,10:50,Ins Lab 10 F
+SE3811,Artificial Intelligence Lab,S2,Tuesday,08:00,10:50,Ins Lab 4 M
+SE4271,Software Project Management Lab,S3,Tuesday,08:00,10:50,Ins Lab 6 M
+SE4881,Data Science Lab,S1,Tuesday,08:00,10:50,Ins Lab 14 H
+SEG1022,Ideology and Constitution of Pakistan,S2,Tuesday,08:00,09:50,B2
+SEG1022,Ideology and Constitution of Pakistan,S4,Tuesday,08:00,09:50,B4
+SEG1513,Calculus and Analytic Geometry,S1,Tuesday,08:00,09:50,B1
+SEG1513,Calculus and Analytic Geometry,S3,Tuesday,08:00,09:50,B3
+SEG1513,Calculus and Analytic Geometry,S2,Tuesday,10:00,10:50,B1
+SEG1513,Calculus and Analytic Geometry,S4,Tuesday,10:00,10:50,B3
+SEG1612,Applications of Information and Communication Technologies,S1,Tuesday,10:00,10:50,B2
+SEG1612,Applications of Information and Communication Technologies,S3,Tuesday,10:00,10:50,B4
+SEG2812,Civics and Professional Ethics,S1,Tuesday,10:00,10:50,B5
+SEG2812,Civics and Professional Ethics,S2,Tuesday,10:00,10:50,B6
+MTSE1033,Linear Algebra,S1,Tuesday,11:00,12:50,B3
+MTSE1033,Linear Algebra,S3,Tuesday,11:00,12:50,B5
+SE1131,Introduction to Programming Lab,S1,Tuesday,11:00,14:10,Ins Lab 2 M
+SE1131,Introduction to Programming Lab,S3,Tuesday,11:00,14:10,Ins Lab 4 M
+SE2313,Introduction to Database Systems,S2,Tuesday,11:00,12:50,B4
+SE2313,Introduction to Database Systems,S4,Tuesday,11:00,12:50,B6
+SE3711,Information Security Lab,S2,Tuesday,11:00,14:10,Ins Lab 14 H
+SE4881,Data Science Lab,S3,Tuesday,11:00,14:10,Ins Lab 6 M
+SEG1012,Islamic Studies/Ethics,S2,Tuesday,11:00,12:50,B2
+SEG1573,Discrete Structures,S1,Tuesday,11:00,12:50,B1
+MTSE1033,Linear Algebra,S2,Tuesday,13:20,14:10,B3
+MTSE1033,Linear Algebra,S4,Tuesday,13:20,14:10,B5
+SE2313,Introduction to Database Systems,S1,Tuesday,13:20,14:10,B4
+SE2313,Introduction to Database Systems,S3,Tuesday,13:20,14:10,B6
+SEG1032,Pakistan Studies,S1,Tuesday,13:20,14:10,B2
+SEG1573,Discrete Structures,S2,Tuesday,13:20,14:10,B1
+MGSE1003,Introduction to Management,S2,Tuesday,14:20,15:10,F3
+SE1141,Object Oriented Programming Lab,S1,Tuesday,14:20,17:10,Ins Lab 2 M
+SE2141,Data Structures Lab,S1,Tuesday,14:20,17:10,Ins Lab 4 M
+SE2141,Data Structures Lab,S3,Tuesday,14:20,17:10,Ins Lab 14 H
+SE2261,Software Requirement Engineering Lab,S1,Tuesday,14:20,17:10,Ins Lab 7 H
+SE2261,Software Requirement Engineering Lab,S2,Tuesday,14:20,17:10,Ins Lab 6 M
+SE3163,Analysis of Algorithms,S3,Tuesday,14:20,16:10,B1
+SE3432,Parallel and Distributed Computing,S1,Tuesday,14:20,16:10,B3
+SE3512,Software Construction and Development,S1,Tuesday,14:20,16:10,B4
+SE3522,Computer Organization and Assembly Language,S2,Tuesday,14:20,16:10,B2
+SE3542,Web Engineering,S2,Tuesday,14:20,16:10,B5
+SE4743,Internet of Things,S2,Tuesday,14:20,15:10,B6
+SE4272,Software Project Management,S2,Tuesday,15:20,17:10,J2
+SE4573,Blockchain Technology,S2,Tuesday,15:20,17:10,F3
+SE4743,Internet of Things,S1,Tuesday,15:20,17:10,B6
+SE4882,Data Science,S3,Tuesday,15:20,17:10,A1
+SE3272,HCI and Computer Graphics,S2,Tuesday,16:20,17:10,B2
+SE3313,Software Design and Architecture,S3,Tuesday,16:20,17:10,B1
+SE3712,Information Security,S1,Tuesday,16:20,17:10,B3
+SEG1021,Fehm-ul-Quran I,S1,Tuesday,18:00,20:50,B1
+SEG1021,Fehm-ul-Quran I,S2,Tuesday,18:00,20:50,B2
+SEG1031,Fehm-ul-Quran II,S1,Tuesday,18:00,20:50,B3
+SEG1031,Fehm-ul-Quran II,S2,Tuesday,18:00,20:50,B4
+SEG1031,Fehm-ul-Quran II,S3,Tuesday,18:00,20:50,B5
+SEG1031,Fehm-ul-Quran II,S4,Tuesday,18:00,20:50,B6
+MTSE2053,Multivariable Calculus,S2,Wednesday,08:00,09:50,B5
+SE1133,Introduction to Programming,S1,Wednesday,08:00,09:50,B1
+SE1133,Introduction to Programming,S3,Wednesday,08:00,09:50,B3
+SE2412,Operating Systems,S1,Wednesday,08:00,09:50,B6
+SE3271,HCI and Computer Graphics Lab,S3,Wednesday,08:00,10:50,Ins Lab 7 H
+SE3511,Software Construction and Development Lab,S1,Wednesday,08:00,10:50,Ins Lab 2 M
+SE3611,Software Quality Engineering Lab,S2,Wednesday,08:00,10:50,Ins Lab 14 H
+SE3711,Information Security Lab,S1,Wednesday,08:00,10:50,Ins Lab 6 M
+SE4191,Mobile Application Development Lab,S2,Wednesday,08:00,10:50,Ins Lab 10 F
+SE4881,Data Science Lab,S4,Wednesday,08:00,10:50,Ins Lab 4 M
+SEG1113,Functional English,S2,Wednesday,08:00,09:50,B2
+SEG1113,Functional English,S4,Wednesday,08:00,09:50,B4
+SEG1311,Applied Physics Lab,S2,Wednesday,08:00,10:50,Physics Lab F
+MTSE2053,Multivariable Calculus,S1,Wednesday,10:00,10:50,B5
+SE1133,Introduction to Programming,S2,Wednesday,10:00,10:50,B1
+SE1133,Introduction to Programming,S4,Wednesday,10:00,10:50,B3
+SEG1113,Functional English,S1,Wednesday,10:00,10:50,B2
+SEG1113,Functional English,S3,Wednesday,10:00,10:50,B4
+SEG2812,Civics and Professional Ethics,S2,Wednesday,10:00,10:50,B6
+SE1143,Object Oriented Programming,S2,Wednesday,11:00,12:50,B2
+SE2143,Data Structures,S2,Wednesday,11:00,12:50,B4
+SE2143,Data Structures,S4,Wednesday,11:00,12:50,B6
+SE2223,Software Engineering,S1,Wednesday,11:00,12:50,B3
+SE2223,Software Engineering,S3,Wednesday,11:00,12:50,B5
+SE2511,Digital Logic Design Lab,S1,Wednesday,11:00,14:10,DLD LAB B
+SE3521,Computer Organization and Assembly Language Lab,S1,Wednesday,11:00,14:10,Ins Lab 6 M
+SE3521,Computer Organization and Assembly Language Lab,S3,Wednesday,11:00,14:10,Ins Lab 7 H
+SE3541,Web Engineering Lab,S2,Wednesday,11:00,14:10,Ins Lab 2 M
+SE3811,Artificial Intelligence Lab,S1,Wednesday,11:00,14:10,Ins Lab 14 H
+SE4191,Mobile Application Development Lab,S3,Wednesday,11:00,14:10,Ins Lab 4 M
+SEG1123,Expository Writing,S1,Wednesday,11:00,12:50,B1
+SEG1611,Applications of Information and Communication Technologies Lab,S2,Wednesday,11:00,14:10,
+SEG1611,Applications of Information and Communication Technologies Lab,S4,Wednesday,11:00,14:10,
+SE1143,Object Oriented Programming,S1,Wednesday,13:20,14:10,B2
+SE2143,Data Structures,S1,Wednesday,13:20,14:10,B4
+SE2143,Data Structures,S3,Wednesday,13:20,14:10,B6
+SE2223,Software Engineering,S2,Wednesday,13:20,14:10,B3
+SE2223,Software Engineering,S4,Wednesday,13:20,14:10,B5
+SEG1123,Expository Writing,S2,Wednesday,13:20,14:10,B1
+HMSE4033,Technical and Business Writing,S1,Wednesday,14:20,15:10,B6
+MGSE1003,Introduction to Management,S1,Wednesday,14:20,15:10,M10
+SE2311,Introduction to Database Systems Lab,S2,Wednesday,14:20,17:10,Ins Lab 2 M
+SE2311,Introduction to Database Systems Lab,S4,Wednesday,14:20,17:10,Ins Lab 4 M
+SE3163,Analysis of Algorithms,S1,Wednesday,14:20,16:10,B2
+SE3313,Software Design and Architecture,S2,Wednesday,14:20,16:10,B1
+SE3343,Automated Software Testing,S2,Wednesday,14:20,16:10,B4
+SE3432,Parallel and Distributed Computing,S3,Wednesday,14:20,16:10,B3
+SE3612,Software Quality Engineering,S1,Wednesday,14:20,16:10,B5
+HMSE4033,Technical and Business Writing,S2,Wednesday,15:20,17:10,B6
+HMSE4033,Technical and Business Writing,S3,Wednesday,15:20,17:10,J1
+SE4573,Blockchain Technology,S1,Wednesday,15:20,17:10,J2
+SE3163,Analysis of Algorithms,S2,Wednesday,16:20,17:10,B2
+SE3313,Software Design and Architecture,S1,Wednesday,16:20,17:10,B1
+SE3343,Automated Software Testing,S1,Wednesday,16:20,17:10,B4
+SE3712,Information Security,S3,Wednesday,16:20,17:10,B3
+SEG1021,Fehm-ul-Quran I,S1,Wednesday,18:00,20:50,B1
+SEG1021,Fehm-ul-Quran I,S2,Wednesday,18:00,20:50,B2
+SEG1031,Fehm-ul-Quran II,S1,Wednesday,18:00,20:50,B3
+SEG1031,Fehm-ul-Quran II,S2,Wednesday,18:00,20:50,B4
+SEG1031,Fehm-ul-Quran II,S3,Wednesday,18:00,20:50,B5
+SEG1031,Fehm-ul-Quran II,S4,Wednesday,18:00,20:50,B6
+SE1141,Object Oriented Programming Lab,S2,Thursday,08:00,10:50,Ins Lab 6 M
+SE2512,Digital Logic Design,S2,Thursday,08:00,09:50,B6
+SE2772,Computer Networks,S1,Thursday,08:00,09:50,B5
+SE3521,Computer Organization and Assembly Language Lab,S4,Thursday,08:00,10:50,Ins Lab 4 M
+SE4191,Mobile Application Development Lab,S1,Thursday,08:00,10:50,Ins Lab 2 M
+SEG1022,Ideology and Constitution of Pakistan,S1,Thursday,08:00,09:50,B1
+SEG1022,Ideology and Constitution of Pakistan,S3,Thursday,08:00,09:50,B3
+SEG1513,Calculus and Analytic Geometry,S2,Thursday,08:00,09:50,B2
+SEG1513,Calculus and Analytic Geometry,S4,Thursday,08:00,09:50,B4
+SE2262,Software Requirement Engineering,S1,Thursday,10:00,10:50,B5
+SEG1513,Calculus and Analytic Geometry,S1,Thursday,10:00,10:50,B2
+SEG1513,Calculus and Analytic Geometry,S3,Thursday,10:00,10:50,B4
+SEG1612,Applications of Information and Communication Technologies,S2,Thursday,10:00,10:50,B1
+SEG1612,Applications of Information and Communication Technologies,S4,Thursday,10:00,10:50,B3
+MTSE1033,Linear Algebra,S2,Thursday,11:00,12:50,B4
+MTSE1033,Linear Algebra,S4,Thursday,11:00,12:50,B6
+SE1131,Introduction to Programming Lab,S2,Thursday,11:00,14:10,Ins Lab 6 M
+SE1131,Introduction to Programming Lab,S4,Thursday,11:00,14:10,Ins Lab 14 H
+SE2313,Introduction to Database Systems,S1,Thursday,11:00,12:50,B3
+SE2313,Introduction to Database Systems,S3,Thursday,11:00,12:50,B5
+SE2411,Operating Systems Lab,S2,Thursday,11:00,14:10,Ins Lab 4 M
+SE3271,HCI and Computer Graphics Lab,S2,Thursday,11:00,14:10,Ins Lab 2 M
+SE3271,HCI and Computer Graphics Lab,S4,Thursday,11:00,14:10,Ins Lab 7 H
+SE4271,Software Project Management Lab,S1,Thursday,11:00,14:10,Ins Lab 10 F
+SEG1012,Islamic Studies/Ethics,S1,Thursday,11:00,12:50,B1
+SEG1573,Discrete Structures,S2,Thursday,11:00,12:50,B2
+MTSE1033,Linear Algebra,S1,Thursday,13:20,14:10,B4
+MTSE1033,Linear Algebra,S3,Thursday,13:20,14:10,B6
+SE2313,Introduction to Database Systems,S2,Thursday,13:20,14:10,B3
+SE2313,Introduction to Database Systems,S4,Thursday,13:20,14:10,B5
+SEG1032,Pakistan Studies,S2,Thursday,13:20,14:10,B1
+SEG1573,Discrete Structures,S1,Thursday,13:20,14:10,B2
+HMSE4033,Technical and Business Writing,S3,Thursday,14:20,15:10,B6
+MGSE1003,Introduction to Management,S2,Thursday,14:20,16:10,J4
+SE2141,Data Structures Lab,S2,Thursday,14:20,17:10,Ins Lab 2 M
+SE2141,Data Structures Lab,S4,Thursday,14:20,17:10,Ins Lab 4 M
+SE2411,Operating Systems Lab,S1,Thursday,14:20,17:10,Ins Lab 6 M
+SE3313,Software Design and Architecture,S3,Thursday,14:20,16:10,B1
+SE3432,Parallel and Distributed Computing,S2,Thursday,14:20,16:10,B3
+SE3512,Software Construction and Development,S2,Thursday,14:20,16:10,B5
+SE3522,Computer Organization and Assembly Language,S1,Thursday,14:20,16:10,B2
+SE3542,Web Engineering,S1,Thursday,14:20,16:10,B4
+SE4192,Mobile Application Development,S1,Thursday,14:20,16:10,J3
+SE4743,Internet of Things,S3,Thursday,15:20,17:10,B6
+SE3163,Analysis of Algorithms,S3,Thursday,16:20,17:10,B1
+SE3272,HCI and Computer Graphics,S2,Thursday,16:20,17:10,B3
+SE3712,Information Security,S1,Thursday,16:20,17:10,B2
+SE4573,Blockchain Technology,S2,Thursday,16:20,17:10,B5
+SE4882,Data Science,S1,Thursday,16:20,17:10,J3
+SE4882,Data Science,S2,Thursday,16:20,17:10,B4
+SE4192,Mobile Application Development,S3,Friday,08:00,08:50,B4
+SEG1612,Applications of Information and Communication Technologies,S1,Friday,08:00,08:50,B1
+SEG1612,Applications of Information and Communication Technologies,S3,Friday,08:00,08:50,B2
+SEG1412,Sociology,S1,Friday,09:00,10:50,B3
+SEG1412,Sociology,S3,Friday,09:00,10:50,B4
+SEG1612,Applications of Information and Communication Technologies,S2,Friday,09:00,09:50,B1
+SEG1612,Applications of Information and Communication Technologies,S4,Friday,09:00,09:50,B2
+SE1131,Introduction to Programming Lab,S5,Friday,10:00,12:50,Ins Lab 2 M
+SE2262,Software Requirement Engineering,S1,Friday,10:00,10:50,B6
+SE3431,Parallel and Distributed Computing Lab,S2,Friday,10:00,12:50,Ins Lab 6 M
+SE3431,Parallel and Distributed Computing Lab,S4,Friday,10:00,12:50,Ins Lab 4 M
+SE3812,Artificial Intelligence,S1,Friday,10:00,11:50,B5
+SE4191,Mobile Application Development Lab,S4,Friday,10:00,12:50,Ins Lab 3 M
+SEG1312,Applied Physics,S1,Friday,10:00,11:50,B1
+SEG1312,Applied Physics,S2,Friday,10:00,11:50,B2
+SEG1611,Applications of Information and Communication Technologies Lab,S5,Friday,10:00,12:50,
+SE2262,Software Requirement Engineering,S2,Friday,11:00,12:50,B6
+SEG1412,Sociology,S2,Friday,11:00,12:50,B3
+SEG1412,Sociology,S4,Friday,11:00,12:50,B4
+SEG1032,Pakistan Studies,S1,Friday,12:00,12:50,B1
+SEG1032,Pakistan Studies,S2,Friday,12:00,12:50,B2
+SE1141,Object Oriented Programming Lab,S3,Friday,14:20,17:10,Ins Lab 2 M
+SE2141,Data Structures Lab,S5,Friday,14:20,17:10,Ins Lab 4 M
+SE2311,Introduction to Database Systems Lab,S3,Friday,14:20,17:10,Ins Lab 6 M
+SE2511,Digital Logic Design Lab,S2,Friday,14:20,17:10,DLD LAB B
+SE3272,HCI and Computer Graphics,S1,Friday,14:20,16:10,B1
+SE3272,HCI and Computer Graphics,S3,Friday,14:20,16:10,B3
+SE3712,Information Security,S2,Friday,14:20,16:10,B2
+SE3812,Artificial Intelligence,S2,Friday,14:20,16:10,M9
+SE4192,Mobile Application Development,S2,Friday,14:20,16:10,B6
+SE4272,Software Project Management,S1,Friday,14:20,16:10,B5
+SE4272,Software Project Management,S3,Friday,14:20,16:10,B4
+SE4743,Internet of Things,S3,Friday,16:20,17:10,B4
+SE4882,Data Science,S1,Friday,16:20,17:10,B5
+SE4882,Data Science,S2,Friday,16:20,17:10,B6
