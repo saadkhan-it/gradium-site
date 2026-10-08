@@ -35,7 +35,8 @@ self.addEventListener('fetch', (e) => {
     // the page itself is saved under one name, so any address opens it offline
     const key = req.mode === 'navigate' ? new URL('./', self.registration.scope).href : req;
     try {
-      const res = await fetch(req);
+      // the page asks the server every time (skips the browser's 10-minute copy), so a new version reaches students at once (0.41.2)
+      const res = await fetch(req.mode === 'navigate' ? new Request(req.url, { cache: 'no-cache', credentials: 'same-origin' }) : req);
       if (res.ok) cache.put(key, res.clone());
       return res;
     } catch (err) {
