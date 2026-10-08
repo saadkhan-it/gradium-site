@@ -45,3 +45,31 @@ self.addEventListener('fetch', (e) => {
     }
   })());
 });
+
+// iPhone notifications (0.41.0): the server sends { title, body, open }; a tap opens that screen
+self.addEventListener('push', (e) => {
+  let msg = {};
+  try { msg = e.data ? e.data.json() : {}; } catch { msg = { body: e.data ? e.data.text() : '' }; }
+  e.waitUntil(self.registration.showNotification(msg.title || 'Gradium', {
+    body: msg.body || '',
+    icon: 'icon-192.png',
+    badge: 'icon-192.png',
+    data: { open: msg.open || null },
+  }));
+});
+
+self.addEventListener('notificationclick', (e) => {
+  e.notification.close();
+  const open = e.notification.data && e.notification.data.open;
+  e.waitUntil((async () => {
+    const wins = await self.clients.matchAll({ type: 'window', includeUncontrolled: true });
+    if (wins.length) {
+      await wins[0].focus();
+      if (open) wins[0].postMessage({ open });
+      return;
+    }
+    const url = new URL('./', self.registration.scope);
+    if (open) url.searchParams.set('open', JSON.stringify(open));
+    await self.clients.openWindow(url.href);
+  })());
+});
